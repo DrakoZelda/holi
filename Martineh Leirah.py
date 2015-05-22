@@ -1,8 +1,10 @@
 # -- coding: utf-8 --
 
 i=1
-while (i <= 10):
-		print("Hola Mundo, chupala vangioni, aguante ramon riquelme y el fifa 15")
+s="Hola Mundo, chupala vangioni, aguante ramon riquelme y el fifa 15"
+while i <= 5:
+		print s
+		print s[::-1]
 		i= i+1
 		
-print("Final de la recursion :V")
+print "Final de la recursion :V"
